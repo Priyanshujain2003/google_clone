@@ -1,0 +1,153 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+/* Top class */
+.top{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 20px;
+}
+.top .link
+{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.top .hyper
+{
+    padding: 5px;
+    background-color: rgb(85, 40, 14) ;
+    border-radius: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.top .hyper #link-1
+{    
+    color: white;
+}
+
+/* Google image */
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    height: 100px;
+    width: 250px;
+    position: relative;
+    top: 130px;
+}
+
+
+/* search box */
+.text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #c5c5c5;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    top: 150px;
+    width: 40%;
+}
+
+/* font awesome icon */
+ .icon .fa-solid {
+    padding: 13px;
+}
+
+/* input tag */
+ .icon input {
+    list-style: none;
+    border: none;
+    outline: none;
+    width: 75%;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon .image-1 {
+    height: 25px;
+    width: 35px;
+
+}
+
+.icon .image-2 {
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+}
+
+
+/* two button */
+.box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+}
+
+.box-1 .box {
+    margin: 5px;
+}
+
+.box button {
+    padding: 6px;
+    border: none;
+}
+
+.box button:hover {
+    border: 1px solid rgb(224, 224, 224);
+    background-color: #e6e5e5;
+    border-radius: 8px;
+}
+
+
+
+
+
+.para
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    /* margin-right: 350px; */
+}
+
+
+.para  a
+{
+text-decoration: none;
+list-style: none;
+font-size: 14px;
+margin: 5px;
+}
+
